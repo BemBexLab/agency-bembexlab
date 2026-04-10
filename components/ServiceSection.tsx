@@ -138,30 +138,6 @@ const ServicesSection = () => {
               esign Solutions
             </div>
           </h2>
-          <Link href="services">
-            <motion.button
-              className="relative w-full sm:w-auto px-6 py-3 rounded-full text-white text-sm flex items-center justify-center sm:justify-start gap-2 bg-[#1a1a1a]/80 backdrop-blur-md border border-[#ff4d2d]/50 shadow-[0_0_12px_#ff4d2d66] group overflow-hidden transition hover:shadow-[0_0_25px_#ff4d2d99]"
-              whileHover={{
-                borderColor: "rgba(255, 60, 27, 0.3)",
-                boxShadow: "0 0 15px rgba(255, 60, 27, 0.3)",
-              }}
-            >
-              <span className="relative z-10 font-light">See All Services</span>
-              <motion.span
-                className="text-lg relative z-10"
-                whileHover={{ x: 5 }}
-                transition={{ type: "spring", stiffness: 500 }}
-              >
-                →
-              </motion.span>
-              <motion.span
-                className="absolute inset-0 bg-gradient-to-r from-transparent via-[#ff3c1b]/10 to-transparent opacity-0"
-                whileHover={{ opacity: 1 }}
-                transition={{ duration: 0.6 }}
-              />
-              <span className="absolute inset-0 rounded-full shadow-[inset_0_4px_6px_rgba(255,255,255,0.08)]" />
-            </motion.button>
-          </Link>
         </motion.div>
 
         {/* Right Column */}

@@ -31,7 +31,7 @@ const BehindTheScenes = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full my-30 min-h-[700px] lg:min-h-[1100px] flex flex-col justify-end items-center bg-black overflow-hidden pt-24 pb-32 px-4 sm:px-6"
+      className="relative w-full my-30 min-h-[700px] lg:min-h-[1100px] flex flex-col justify-end items-center bg-black overflow-hidden pt-24 pb-20 mb-20 px-4 sm:px-6"
     >
       <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[55vh] z-0">
         <video

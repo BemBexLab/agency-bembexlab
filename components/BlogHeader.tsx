@@ -7,7 +7,7 @@ const BlogHeader = () => {
     return (
         <section className="min-h-screen bg-[#0A0A11] text-white px-4 sm:px-6 lg:px-20 pt-20 lg:pt-24 pb-24 flex items-center">
             <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
-                {/* ✅ Left Side: Text Content */}
+                {/* Left Side: Text Content */}
                 <div className="text-left max-md:mt-8 relative z-20 lg:-mr-40 xl:-mr-56">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
                         <span className="bg-gradient-to-r from-[#ffb199] to-[#ff0844] text-transparent bg-clip-text">
@@ -26,12 +26,12 @@ const BlogHeader = () => {
 
                     {/* <Link href="https://www.upwork.com/agencies/bembexlab/">
                         <button className="rounded-full px-5 sm:px-6 py-3 text-white text-sm bg-[#1a1a1a]/60 border border-[#ff4d2d] backdrop-blur-md hover:brightness-110 transition shadow-[0_0_12px_#ff1e00aa]">
-                            Book a call →
+                            Hire Us On Upwork ->
                         </button>
                     </Link> */}
                 </div>
 
-                {/* ✅ Right Side: Image */}
+                {/* Right Side: Image */}
                 <div className="flex justify-center lg:justify-end overflow-hidden">
                     <div className="w-full relative z-0 flex justify-center lg:justify-end">
                         <Image

@@ -16,7 +16,7 @@ export default function ContactUsSection() {
         </p>
         <Link href='#contactform'>
           <button className="bg-[#FF3C1B] text-white px-6 py-3 rounded-[75px] font-semibold border-2 border-[#DE2F04] bg-opacity-10 backdrop-blur-md shadow-lg hover:shadow-xl hover:bg-opacity-20 transition-all duration-300">
-            Book a call →
+            Hire Us On Upwork →
           </button>
         </Link>
       </div>

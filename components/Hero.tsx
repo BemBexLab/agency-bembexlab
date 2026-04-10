@@ -112,7 +112,7 @@ const HeroWithStats = () => {
     hover:brightness-110  transition-all duration-300 ease-in-out 
     shadow-[0_0_12px_#ff1e00aa] hover:shadow-[0_0_20px_#ff1e00dd] text-sm sm:text-base min-h-[48px] group"
               >
-                <span>Book a call</span>
+                <span>Hire Us On Upwork</span>
                 <span className="text-lg transform transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>

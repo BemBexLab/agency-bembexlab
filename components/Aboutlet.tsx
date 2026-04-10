@@ -22,7 +22,7 @@ const LetsTalk = () => {
 
         <Link href="https://www.upwork.com/agencies/bembexlab/">
           <button className="rounded-full px-5 sm:px-6 py-3 text-white text-sm sm:text-base bg-[#1a1a1a]/60 border border-[#ff4d2d] backdrop-blur-md hover:brightness-110 transition shadow-[0_0_12px_#ff1e00aa]">
-            Book a call →
+            Hire Us On Upwork →
           </button>
         </Link>
       </div>

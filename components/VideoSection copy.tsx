@@ -62,7 +62,7 @@ const BehindTheScenes = () => {
 
         <Link href="https://www.upwork.com/agencies/bembexlab/">
           <button className="px-6 py-3 rounded-full text-white text-sm font-light bg-[#1a1a1a]/80 backdrop-blur-md border border-[#ff4d2d]/50 shadow-[0_0_12px_#ff4d2d66] transition hover:shadow-[0_0_25px_#ff4d2d99]">
-            Book a call →
+            Hire Us On Upwork
           </button>
         </Link>
       </div>
@@ -71,3 +71,4 @@ const BehindTheScenes = () => {
 };
 
 export default BehindTheScenes;
+

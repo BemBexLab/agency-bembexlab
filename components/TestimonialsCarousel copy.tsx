@@ -104,7 +104,7 @@ const ClientTestimonials: React.FC = () => {
   };
 
   return (
-    <div ref={containerRef} className="mt-32 h-[790px] px-4 sm:px-6 lg:px-8">
+    <div ref={containerRef} className="mt-20 h-[790px] px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div

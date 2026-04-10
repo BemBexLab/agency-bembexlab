@@ -43,9 +43,9 @@ const Home = () => {
       <DeferredSection minHeight={700}>
         <OurProcess />
       </DeferredSection>
-      <DeferredSection minHeight={500}>
+      {/* <DeferredSection minHeight={500}>
         <TheyTrustUs />
-      </DeferredSection>
+      </DeferredSection> */}
       <DeferredSection minHeight={900}>
         <TestimonialsCarousel />
       </DeferredSection>

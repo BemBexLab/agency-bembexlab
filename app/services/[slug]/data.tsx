@@ -4097,7 +4097,7 @@ export const services = [
                         As a <b>Google Ads specialist</b>, we build campaigns based on your goals. We focus on what actually helps your business grow over time. <br /><br />
                         We improve keywords, ads, targeting, and tracking together. This helps you get better traffic and better results from your budget.</>),
                     ctaText: "Better Targeting. Better Traffic. Better ROI.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
                 },
@@ -4281,7 +4281,7 @@ export const services = [
                     description: (<>Every business has different goals. Some want more leads. Some want more sales. Some want more visibility. That is why we do not use a one-size-fits-all setup. As an experienced <b>YouTube ads agency</b>, we build campaigns based on your audience, offer, content, and business goals. We focus on creating ad strategies that make sense for your brand and give your budget a real chance to perform.<br /><br />
                         We can also support brands looking to promote specific content, including <b>YouTube ads for music videos</b>, product launches, awareness campaigns, and short-form content strategies. If you already have a campaign but it is not performing well, we can help improve it with a smarter structure, better targeting, and stronger creative direction.</>),
                     ctaText: "Better Reach. Better Engagement. Better Results.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
                 },
@@ -4829,7 +4829,7 @@ export const services = [
                         We also stay aware of important platform changes and updates. Topics like Meta Ads updates today, Meta Ads update, and Meta Ads changes today matter because even small changes can affect campaign performance.<br /><br />
                         That is especially important for businesses in sensitive industries. For example, we keep an eye on things like Meta Ads policy news today, Meta Ads policy updates, and Meta Ads policy healthcare news so campaigns stay compliant and active.</>,
                     ctaText: "Better Reach. Better Clicks. Better Results.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
 
@@ -5387,7 +5387,7 @@ export const services = [
                         Some stores need awareness. Some need product testing. Some need stronger conversion campaigns. We also help brands better understand setup-related questions like <b>how to turn on Shop Ads on TikTok</b>, account flow, and campaign activation when needed. <br /><br />
                         If your brand also uses creator-based selling, we can support strategies that align with <b>TikTok Shop Ads affiliate</b> campaigns and performance-focused product promotion.</>,
                     ctaText: "Better Visibility. Better Clicks. Better Sales.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
 
@@ -5941,7 +5941,7 @@ export const services = [
                     description: <>Every business has different goals. Some want more leads. Some want better leads. Some want to build visibility in a specific industry. That is why we do not use the same campaign setup for every brand.<br /><br />
                         We can also support newer campaign formats like <b>LinkedIn Thought Leader Ads</b> and <b>LinkedIn Thought Leadership Ads</b> when the goal is to build trust, authority, and stronger brand presence. In simple terms, we help your business advertise with more purpose and better direction.</>,
                     ctaText: "Better Targeting. Better Leads. Better Growth.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
 
@@ -6486,7 +6486,7 @@ export const services = [
                     title: "A Shopping Ads Strategy Built Around Real Sales",
                     description: <>Every store is different. Some brands have a few hero products. Others manage large product catalogs. That is why we do not use one generic setup for every business. We build Shopping Ads strategies based on your products, pricing, categories, market competition, and sales goals. <br /><br />This helps create campaigns that are more relevant, more focused, and more profitable. Some stores need stronger visibility. Some need cleaner product feeds. Some need a better setup than what they currently have.</>,
                     ctaText: "Better Visibility. Better Product Clicks. Better Sales.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
 
@@ -7032,7 +7032,7 @@ export const services = [
                     description: <>Not all strategies work the same for every business, and every business has different goals. Some brands only do high-ticket affiliate marketing, while others need to do more than that. That is why we make plans based on your niche, audience, and competitors.<br /><br />
                         We also consider trends like <b>b2b affiliate marketing</b> and tools like <b>AI tools for affiliate marketing</b>. From <b>affiliate marketing blog</b> ideas to real <b>affiliate marketing examples</b>, we create systems that are practical and focused on results.</>,
                     ctaText: "Better Partners. Better Traffic. Better Revenue.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
 
@@ -7577,7 +7577,7 @@ export const services = [
                     description: <>Every business has different goals, so we do not use a fixed approach. Some brands work with a <b>top influencer marketing agency</b>, while others need a flexible <b>influencer marketing consultant</b>. We build strategies based on your niche, audience, and campaign goals.<br /><br />
                         Whether you are targeting local markets or global audiences through an <b>influencer marketing agency USA</b> or an <b>influencer marketing agency UK</b>, we create systems that deliver results. We also focus on trends like <b>influencer marketing jobs</b> and <b>influencer marketing entry-level New York</b> to understand the evolving industry.</>,
                     ctaText: "Better Influencers. Better Engagement. Better Results.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
 
@@ -8123,7 +8123,7 @@ A lot of businesses now work with the best app marketing agency or read reviews 
                         We create systems that work by staying up to date on mobile app marketing trends and putting real app marketing strategy ideas into action. No matter if you're using small business marketing app tools to grow your business or reach a global audience, the focus stays on real results.
 </>,
                     ctaText: "More Installs. Better Users. Higher Retention.",
-                    ctaHref: "/contact-us",
+                    ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
                     tagText: "All Services"
 

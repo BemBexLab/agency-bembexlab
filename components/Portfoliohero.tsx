@@ -28,7 +28,7 @@ const PortfolioHero = () => {
             ongoing success.
           </p>
 
-          <Link href="/contact-us">
+          <Link href="https://www.upwork.com/agencies/bembexlab/">
             <div className="flex justify-center lg:justify-start">
               <button className="rounded-full px-6 py-3 text-white text-sm bg-[#1a1a1a]/60 border border-[#ff4d2d] backdrop-blur-md hover:brightness-110 transition shadow-[0_0_12px_#ff1e00aa]">
                 Book a call →

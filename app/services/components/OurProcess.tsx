@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import React, { useState, useEffect, useRef } from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
-import { useRouter } from "next/navigation";
 
 const defaultSteps = [
     { id: 1, title: 'Strategy And Planning', subtitle: 'Strategy and Planning', desc: 'We explore your market audience, competitors, and goals to identify opportunities and establish a strong foundation for our brand.' },
@@ -15,9 +14,9 @@ const defaultSteps = [
     { id: 7, title: 'Launch And Deployment', subtitle: 'Launch And Deployment', desc: 'We deploy, monitor and hand over with documentation and training.' },
 ]
 
-const OurProcess = ({ steps = defaultSteps, progressBarTitle }: { steps?: any[]; progressBarTitle?: React.ReactNode }) => {
-    const router = useRouter();
+const contactUrl = "https://www.upwork.com/agencies/bembexlab/";
 
+const OurProcess = ({ steps = defaultSteps, progressBarTitle }: { steps?: any[]; progressBarTitle?: React.ReactNode }) => {
     const [active, setActive] = useState<number>(0)
     const [isTwoRow, setIsTwoRow] = useState(false)
 
@@ -283,7 +282,7 @@ const OurProcess = ({ steps = defaultSteps, progressBarTitle }: { steps?: any[];
                 <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full items-center sm:justify-center">
 
                     {/* Call us now button */}
-                    <button type="button" onClick={() => router.push('/contact-us')} className="w-full sm:w-auto relative px-4 py-2 rounded-full text-white text-sm font-light flex items-center gap-2 bg-[#1a1a1a]/60 backdrop-blur-md border border-[#ff1e00]/20 transition-all duration-300 group overflow-hidden justify-center">
+                    <button type="button" onClick={() => window.location.href = contactUrl} className="w-full sm:w-auto relative px-4 py-2 rounded-full text-white text-sm font-light flex items-center gap-2 bg-[#1a1a1a]/60 backdrop-blur-md border border-[#ff1e00]/20 transition-all duration-300 group overflow-hidden justify-center">
                         <span className="relative z-10 transition-all duration-300 group-hover:translate-x-1">
                             Call Us Now
                         </span>
@@ -300,7 +299,7 @@ const OurProcess = ({ steps = defaultSteps, progressBarTitle }: { steps?: any[];
                     </button>
 
                     {/* Request a quote button */}
-                    <button type="button" onClick={() => router.push('/contact-us')} className="w-full sm:w-auto relative px-4 py-2 rounded-full text-white text-sm font-light flex items-center gap-2 bg-[#1a1a1a]/60 backdrop-blur-md border border-[#ff1e00]/20 transition-all duration-300 group overflow-hidden justify-center">
+                    <button type="button" onClick={() => window.location.href = contactUrl} className="w-full sm:w-auto relative px-4 py-2 rounded-full text-white text-sm font-light flex items-center gap-2 bg-[#1a1a1a]/60 backdrop-blur-md border border-[#ff1e00]/20 transition-all duration-300 group overflow-hidden justify-center">
                         <span className="relative z-10 transition-all duration-300 group-hover:translate-x-1">
                             Request a Quote
                         </span>

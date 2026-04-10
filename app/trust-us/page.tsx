@@ -73,7 +73,7 @@ const TheyTrustUs = () => {
           </motion.h2>
 
           {/* Let's talk Button */}
-          <Link href="/contact-us">
+          <Link href="https://www.upwork.com/agencies/bembexlab/">
             <button className="relative px-6 py-2.5 rounded-full text-white text-base font-light flex items-center gap-3 bg-[#1a1a1a]/60 backdrop-blur-md border border-[#ff1e00]/20 transition-all duration-300 group overflow-hidden">
               <span className="relative z-10 transition-all duration-300 group-hover:translate-x-1">
                 Let's Talk

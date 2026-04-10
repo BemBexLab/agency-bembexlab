@@ -16,7 +16,7 @@ const navItems = [
   { label: "Portfolio", href: "/portfolio" },
   { label: "Packages", href: "/packages" },
   { label: "Blogs", href: "/blog" },
-  { label: "Contact us", href: "/contact-us" },
+  { label: "Contact us", href: "https://www.upwork.com/agencies/bembexlab/" },
 ];
 
 export default function Navbar() {
@@ -146,7 +146,7 @@ export default function Navbar() {
         </div>
 
         {/* 🚀 CTA Button (hidden on xs) */}
-        <Link href="/contact-us">
+        <Link href="https://www.upwork.com/agencies/bembexlab/">
           <div className="hidden lg:flex">
             <button className="rounded-full px-6 py-2 border-b-2 border-[#ff1e00] text-white bg-[#1a1a1a]/60 backdrop-blur-md flex items-center gap-2 shadow-[inset_0_2px_4px_rgba(255,255,255,0.1),inset_0_2px_6px_rgba(255,30,0,0.15)] hover:brightness-110 transition  font-light">
               Book a call <span className="text-xl">→</span>

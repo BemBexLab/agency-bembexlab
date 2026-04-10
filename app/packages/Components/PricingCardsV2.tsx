@@ -507,7 +507,7 @@ const PricingCardsV2 = () => {
                                         `}</style>
                                     </div>
                                     <a
-                                        href="/contact-us"
+                                        href="https://www.upwork.com/agencies/bembexlab/"
                                         className="flex font-light text-sm items-center justify-center gap-1 text-white py-2 px-3 rounded-full transition-colors group w-full"
                                         style={{
                                             backgroundImage: "url('/service/Button.webp')",

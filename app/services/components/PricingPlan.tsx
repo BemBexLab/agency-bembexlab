@@ -112,7 +112,7 @@ const PricingPlan = ({ cardData }: { cardData: any[] }) => {
                                             }
                                         `}</style>
                                     <a
-                                        href="/contact-us"
+                                        href="https://www.upwork.com/agencies/bembexlab/"
                                         className="mt-6 flex shrink-0 font-light text-sm items-center justify-center gap-1 text-white py-2 px-3 rounded-full transition-colors group w-full mr-auto"
                                         style={{
                                             backgroundImage: "url('/service/Button.webp')",
@@ -195,7 +195,7 @@ const PricingPlan = ({ cardData }: { cardData: any[] }) => {
                                     </ul>
                                 </div>
                                 <a
-                                    href="/contact-us"
+                                    href="https://www.upwork.com/agencies/bembexlab/"
                                     className="mt-4 flex shrink-0 font-light text-sm items-center justify-center gap-1 text-white py-2 px-3 rounded-full transition-colors group w-full"
                                     style={{
                                         backgroundImage: "url('/service/Button.webp')",

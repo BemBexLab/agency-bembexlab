@@ -25,7 +25,7 @@ const AboutHeader = () => {
             We specialize in delivering end to end digital marketing services that are data-backed, transparent, and tailored to each client’s unique goals. Our focus is simple measurable growth, long term success, and real business impact.
           </p>
 
-          <Link href="/contact-us">
+          <Link href="https://www.upwork.com/agencies/bembexlab/">
             <button className="rounded-full px-5 sm:px-6 py-3 text-white text-sm bg-[#1a1a1a]/60 border border-[#ff4d2d] backdrop-blur-md hover:brightness-110 transition shadow-[0_0_12px_#ff1e00aa]">
               Book a call →
             </button>

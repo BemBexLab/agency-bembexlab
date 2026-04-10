@@ -24,7 +24,7 @@ const BlogHeader = () => {
                         Dive into our blog for actionable strategies, expert insights, and fresh perspectives that will help you stay ahead of the curve. Whether you're looking for ways to boost performance, optimize your digital presence.
                     </p>
 
-                    {/* <Link href="/contact-us">
+                    {/* <Link href="https://www.upwork.com/agencies/bembexlab/">
                         <button className="rounded-full px-5 sm:px-6 py-3 text-white text-sm bg-[#1a1a1a]/60 border border-[#ff4d2d] backdrop-blur-md hover:brightness-110 transition shadow-[0_0_12px_#ff1e00aa]">
                             Book a call →
                         </button>

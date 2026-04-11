@@ -25,7 +25,7 @@ const AboutIntro = () => {
         {/* 🔹 Right Content */}
         <div className="text-gray-200 text-sm sm:text-base leading-relaxed space-y-5">
           <p>
-            We are a team of experienced digital marketers, strategists, designers, and growth specialists passionate about building brands in the digital space. With a deep understanding of the USA market and consumer behavior, we help businesses stand out in competitive industries.<br></br><br></br>
+            We are a team of experienced digital marketers, strategists, designers, and growth specialists passionate about building brands in the digital space. With a deep understanding of the Pakistan market and consumer behavior, we help businesses stand out in competitive industries.<br></br><br></br>
             At BembexLab, we believe digital marketing is not about shortcuts or guesswork, it's about strategy, execution, and continuous optimization.
           </p>
         </div>

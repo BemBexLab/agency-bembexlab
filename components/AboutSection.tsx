@@ -15,7 +15,7 @@ const AboutSection = () => {
           </h2>
 
           <p className="text-gray-200 text-base sm:text-[17px] leading-relaxed mb-10 max-w-xl">
-            We are a team of experienced digital marketers, strategists, designers, and growth specialists passionate about building brands in the digital space. With a deep understanding of the USA market and consumer behavior, we help businesses stand out in competitive industries.<br></br><br></br>
+            We are a team of experienced digital marketers, strategists, designers, and growth specialists passionate about building brands in the digital space. With a deep understanding of the Pakistan market and consumer behavior, we help businesses stand out in competitive industries.<br></br><br></br>
             At BembexLab, we believe digital marketing is not about shortcuts or guesswork, it's about strategy, execution, and continuous optimization.
           </p>
 

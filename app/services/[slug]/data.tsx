@@ -375,7 +375,7 @@ export const services = [
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {
@@ -2210,7 +2210,7 @@ export const services = [
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {
@@ -3973,7 +3973,7 @@ export const services = [
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {
@@ -7575,7 +7575,7 @@ export const services = [
                 customPlanData: {
                     title: "An Influencer Marketing Strategy Built Around Real Results",
                     description: <>Every business has different goals, so we do not use a fixed approach. Some brands work with a <b>top influencer marketing agency</b>, while others need a flexible <b>influencer marketing consultant</b>. We build strategies based on your niche, audience, and campaign goals.<br /><br />
-                        Whether you are targeting local markets or global audiences through an <b>influencer marketing agency USA</b> or an <b>influencer marketing agency UK</b>, we create systems that deliver results. We also focus on trends like <b>influencer marketing jobs</b> and <b>influencer marketing entry-level New York</b> to understand the evolving industry.</>,
+                        Whether you are targeting local markets or global audiences through an <b>influencer marketing agency Pakistan</b> or an <b>influencer marketing agency Pakistan</b>, we create systems that deliver results. We also focus on trends like <b>influencer marketing jobs</b> and <b>influencer marketing entry-level New York</b> to understand the evolving industry.</>,
                     ctaText: "Better Influencers. Better Engagement. Better Results.",
                     ctaHref: "https://www.upwork.com/agencies/bembexlab/",
                     image: "/Home/performance_marketing.webp",
@@ -7676,7 +7676,7 @@ export const services = [
                     title: "What Are App Marketing Services and Why Do They Matter?",
                     description: <>App marketing helps your mobile app get to the right people and grow more quickly. It has tips and tricks that mobile marketing companies and the best app marketing company teams use to get more installs and engagement. It doesn't just want downloads; it wants people who really use your app.
                         <br /><br />
-A lot of businesses now work with the best app marketing agency or read reviews of app marketing services in the US before choosing a partner. This is because there are more and more businesses competing with each other. The goal is to stay ahead and make your app successful in the long run by using mobile marketing apps and keeping up with the latest trends in mobile app marketing.
+A lot of businesses now work with the best app marketing agency or read reviews of app marketing services in Pakistan before choosing a partner. This is because there are more and more businesses competing with each other. The goal is to stay ahead and make your app successful in the long run by using mobile marketing apps and keeping up with the latest trends in mobile app marketing.
 </>,
                     imageURL: '/service/webService.webp',
                 },
@@ -7684,11 +7684,11 @@ A lot of businesses now work with the best app marketing agency or read reviews 
                 progressBarSteps: [
                     {
                         id: 1, title: 'App Store Optimization (ASO)', subtitle: 'App Store Optimization (ASO)', desc: "We make your app listing better so that it appears higher in app stores like the Clover App Market, Market Basket App, and City Market App. This means that the titles, keywords, and descriptions all match what people are searching for. With a good ASO plan, you'll get more installs and more people will see your app.It also helps businesses grow over time without always having to rely on ads." },
-                    { id: 2, title: 'Paid App Advertising', subtitle: 'Paid App Advertising', desc: "We put ads on mobile marketing apps and other sites that are relevant to our audience. Paid ads help you reach the right people quickly and get more installs. Many companies compare free app marketing services in the US to paid ones, but paid ads usually work better. This helps your app get off to a good start and get seen." },
+                    { id: 2, title: 'Paid App Advertising', subtitle: 'Paid App Advertising', desc: "We put ads on mobile marketing apps and other sites that are relevant to our audience. Paid ads help you reach the right people quickly and get more installs. Many companies compare free app marketing services in Pakistan to paid ones, but paid ads usually work better. This helps your app get off to a good start and get seen." },
                     { id: 3, title: 'Audience Targeting & User Acquisition', subtitle: 'Audience Targeting & User Acquisition', desc: "We try to get people who are more likely to join to do so. It's important to pay attention to installs because not all of them are useful. We know how to reach the right people because we know how to promote mobile apps. This makes the app work better and keeps people coming back." },
                     { id: 4, title: 'App Launch Strategy', subtitle: 'App Launch Strategy', desc: "The success of your app may depend on how well it starts. The best companies that market apps and the best companies that market mobile apps use the launch plans we make. People can find and download your app more easily this way. A well-planned launch is a great way to start." },
                     { id: 5, title: 'Retention & Engagement Optimization', subtitle: 'Retention & Engagement Optimization', desc: "Getting people to install is just the first step. For long-term success, it's more important to keep users active. We use tried-and-true methods for marketing mobile apps to get more people to use them. This raises the value of each user over time and helps the app grow." },
-                    { id: 6, title: 'Tracking & Performance Analytics', subtitle: 'Tracking & Performance Analytics', desc: "We can easily see how many installs, how users behave, and how well campaigns are doing. This includes information that you can find on USA Reddit, app marketing services, and industry platforms. Good data can help you figure out what works. It also helps you make better decisions and get better in the future." },
+                    { id: 6, title: 'Tracking & Performance Analytics', subtitle: 'Tracking & Performance Analytics', desc: "We can easily see how many installs, how users behave, and how well campaigns are doing. This includes information that you can find on Pakistan Reddit, app marketing services, and industry platforms. Good data can help you figure out what works. It also helps you make better decisions and get better in the future." },
                 ],
                 pricingCardData: [
                     {
@@ -8118,7 +8118,7 @@ A lot of businesses now work with the best app marketing agency or read reviews 
                 ],
                 customPlanData: {
                     title: "An App Marketing Strategy Built Around Real Growth",
-                    description: <>Strategies should be able to change because every app is different. Some businesses hire the best app marketing services in the USA, while others look into app marketing in Brookshire, TX, or other local agencies. We make plans just for you based on your goals, audience, and competitors.
+                    description: <>Strategies should be able to change because every app is different. Some businesses hire the best app marketing services in Pakistan, while others look into app marketing in Brookshire, TX, or other local agencies. We make plans just for you based on your goals, audience, and competitors.
                         <br /><br />
                         We create systems that work by staying up to date on mobile app marketing trends and putting real app marketing strategy ideas into action. No matter if you're using small business marketing app tools to grow your business or reach a global audience, the focus stays on real results.
 </>,
@@ -8194,11 +8194,11 @@ A lot of businesses now work with the best app marketing agency or read reviews 
                     },
                     {
                         question: "How do I choose the best app marketing agency?",
-                        answer: (<>Look for experience, results, and <b>app marketing services USA reviews</b> before choosing.</>)
+                        answer: (<>Look for experience, results, and <b>app marketing services Pakistan reviews</b> before choosing.</>)
                     },
                     {
                         question: "Are free app marketing services useful?",
-                        answer: (<><b>Free app marketing services in the USA</b> can help in the beginning, but paid strategies scale faster.</>)
+                        answer: (<><b>Free app marketing services in Pakistan</b> can help in the beginning, but paid strategies scale faster.</>)
                     },
                 ],
             },
@@ -8875,7 +8875,7 @@ A lot of businesses now work with the best app marketing agency or read reviews 
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {
@@ -12017,7 +12017,7 @@ A lot of businesses now work with the best app marketing agency or read reviews 
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {
@@ -14666,7 +14666,7 @@ A lot of businesses now work with the best app marketing agency or read reviews 
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {
@@ -17332,7 +17332,7 @@ A lot of businesses now work with the best app marketing agency or read reviews 
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {
@@ -20542,7 +20542,7 @@ A lot of businesses now work with the best app marketing agency or read reviews 
             },
             {
                 src: '/portfolio/web_04.svg',
-                cardData: 'Web Founders USA',
+                cardData: 'Web Founders Pakistan',
                 link: '/case-studies/web-founders-usa',
             },
             {

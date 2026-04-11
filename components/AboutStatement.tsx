@@ -46,7 +46,7 @@ const OurVisionStatement = () => {
           </ul> */}
 
           <p className="text-gray-200 text-base sm:text-[17px] leading-relaxed mt-6 max-w-xl">
-            Our team brings years of combined experience working with startups, small businesses, and growing brands across multiple industries. We are skilled in industry-leading tools and platforms including Google Ads, Google Analytics, Meta Ads, and modern SEO frameworks.
+            Our team brings 5 years of experience working with startups, small businesses, and growing brands across multiple industries. We are skilled in industry-leading tools and platforms including Google Ads, Google Analytics, Meta Ads, and modern SEO frameworks.
             <br />
             This expertise allows us to adapt quickly, stay ahead of trends, and deliver consistent results for our clients.
           </p>

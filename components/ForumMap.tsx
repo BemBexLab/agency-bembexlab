@@ -92,7 +92,7 @@ const ContactCard = () => {
                             </svg>
                         </div>
                         <span className="text-gray-300 text-sm group-hover:text-white transition-colors duration-300">
-                            1014 Garner Rd SW, Lilburn, GA 30047, United States
+                            Pakistan
                         </span>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ const ForumMap = () => {
                         viewport={{ once: false, amount: 0.3 }}
                         transition={{ duration: 1, ease: "easeOut" }}
                     >
-                        Growing Businesses Across<br></br>United States
+                        Growing Businesses Across<br></br>Pakistan
                     </motion.h2>
                     <motion.p
                         className="text-sm md:text-md lg:text-lg text-[#FFFFFF80] font-light text-center"

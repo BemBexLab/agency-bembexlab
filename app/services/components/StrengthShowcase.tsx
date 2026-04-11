@@ -219,7 +219,7 @@ const StrengthShowcase: React.FC = () => {
                                         <div className="text-xs text-gray-300">Retail Manager, Wearline</div>
                                     </div>
                                 </div>
-                                <p className="mt-3 text-xs text-[#FFFFFF80]">With Advertyzed, we stopped worrying about marketing. Campaigns just get done—fast, effective, and without surprise fees. It's truly plug-and-play.</p>
+                                <p className="mt-3 text-xs text-[#FFFFFF80]">With Bembex Lab, we stopped worrying about marketing. Campaigns just get done—fast, effective, and without surprise fees. It's truly plug-and-play.</p>
                             </div>
                         </motion.div>
 

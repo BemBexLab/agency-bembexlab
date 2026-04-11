@@ -47,11 +47,11 @@ const MissionSection = () => {
               Performance Tracking & Analytics
             </li>
             <li className="list-disc text-sm sm:text-base leading-relaxed max-w-2xl">
-              12+ Years of Industry Experience
+              5 Years of Industry Experience
             </li>
           </ul>
           <p className="mt-3 text-gray-200 text-sm sm:text-base leading-relaxed max-w-2xl">
-            Each strategy is customized to match your business objectives, audience, and competitive landscape in the United States.
+            Each strategy is customized to match your business objectives, audience, and competitive landscape in Pakistan.
           </p>
         </div>
 

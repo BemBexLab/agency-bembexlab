@@ -346,7 +346,7 @@
 //             </h2>
 
 //             <p className="text-gray-400 font-light text-sm sm:text-base leading-relaxed">
-//               Our digital marketing agency helped companies & businesses such as yours reach better positions, increase online traffic, positive returns like (ROI) and brand building through our digital marketing services. Our digital marketing company is certified in areas like SEM, PPC, social media marketing (SMM), UX/UI Design, Video Animation, Video Editing & Logo Design. We bring 20+ years of experience to the table and use creative strategies to help you business success.
+//               Our digital marketing agency helped companies & businesses such as yours reach better positions, increase online traffic, positive returns like (ROI) and brand building through our digital marketing services. Our digital marketing company is certified in areas like SEM, PPC, social media marketing (SMM), UX/UI Design, Video Animation, Video Editing & Logo Design. We bring 5 years of experience to the table and use creative strategies to help you business success.
 //             </p>
 //           </div>
 //         </div>

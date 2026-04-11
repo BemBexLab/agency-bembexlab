@@ -21,7 +21,7 @@ const AboutHeader = () => {
           </h1>
 
           <p className="text-gray-200 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 max-w-xl">
-            BembexLab is a results driven digital marketing agency helping businesses across the United States grow their online presence, generate quality leads, and increase revenue through strategic digital solutions.<br /><br />
+            BembexLab is a results driven digital marketing agency helping businesses across Pakistan grow their online presence, generate quality leads, and increase revenue through strategic digital solutions.<br /><br />
             We specialize in delivering end to end digital marketing services that are data-backed, transparent, and tailored to each client’s unique goals. Our focus is simple measurable growth, long term success, and real business impact.
           </p>
 

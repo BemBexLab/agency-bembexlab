@@ -12,18 +12,18 @@ const FAQs = () => {
     const faqs = [
         {
             id: 1,
-            question: "What makes Bembex Lab the best digital marketing agency in USA?",
-            answer: "We stand out as a top rated digital marketing agency in USA because we combine full service marketing strategies, creative web designs, plans and advanced SEO, PPC, and social media marketing to help your business growth and achieve measurable ROI/ROAS."
+            question: "What makes Bembex Lab the best digital marketing agency in Pakistan?",
+            answer: "We stand out as a top rated digital marketing agency in Pakistan because we combine full service marketing strategies, creative web designs, plans and advanced SEO, PPC, and social media marketing to help your business growth and achieve measurable ROI/ROAS."
         },
         {
             id: 2,
             question: "Do you provide full service online marketing solutions?",
-            answer: "Yes. Based in USA, we are a digital marketing agency that provides 360 like services SEO, Google Ads (PPC), social media marketing, content marketing, web design, application development, Graphic Designing & branding."
+            answer: "Yes. Based in Pakistan, we are a digital marketing agency that provides 360 like services SEO, Google Ads (PPC), social media marketing, content marketing, web design, application development, Graphic Designing & branding."
         },
         {
             id: 3,
-            question: "How can SEO services help my USA based business grow?",
-            answer: "We offer Google local search engine optimization services in USA to enhance the presence of your website on Google, generate specific traffic, and improve the number of leads and conversions. We achieve maximum reach through on-page and off-page as well as technical SEO of your site."
+            question: "How can SEO services help my Pakistan based business grow?",
+            answer: "We offer Google local search engine optimization services in Pakistan to enhance the presence of your website on Google, generate specific traffic, and improve the number of leads and conversions. We achieve maximum reach through on-page and off-page as well as technical SEO of your site."
         },
         {
             id: 4,
@@ -32,8 +32,8 @@ const FAQs = () => {
         },
         {
             id: 5,
-            question: "Do you offer local SEO for small businesses in USA?",
-            answer: "Yes. Our local SEO experts help small businesses rank on Google Maps and local search results across USA cities."
+            question: "Do you offer local SEO for small businesses in Pakistan?",
+            answer: "Yes. Our local SEO experts help small businesses rank on Google Maps and local search results across Pakistan cities."
         },
         {
             id: 6,
@@ -52,8 +52,8 @@ const FAQs = () => {
         },
         {
             id: 9,
-            question: "What is the best social media strategy for businesses in USA?",
-            answer: "The best strategy combines consistent posting, audience engagement, paid social campaigns, and performance tracking to grow your brand presence and sales in the USA, US market."
+            question: "What is the best social media strategy for businesses in Pakistan?",
+            answer: "The best strategy combines consistent posting, audience engagement, paid social campaigns, and performance tracking to grow your brand presence and sales in the Pakistan market."
         },
         {
             id: 10,

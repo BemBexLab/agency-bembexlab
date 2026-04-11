@@ -119,12 +119,12 @@ export default function ContactUsSection() {
             />
           </div>
           <a
-            href="https://www.google.com/maps?q=1014+Garner+Rd+SW,+Lilburn,+GA+30047,+USA"
+            href="https://www.google.com/maps?q=Pakistan"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg hover:underline"
           >
-            1014 Garner Rd SW, Lilburn, GA 30047, USA
+            Pakistan
           </a>
         </div>
       </div>

@@ -68,28 +68,24 @@ const ClientTestimonials: React.FC = () => {
       avatar: "/Ellipse6.webp",
       review: "We now have a fantastic website that perfectly encapsulates the essence of our company thanks to them. Their service has exceeded all of our expectations.",
       rating: 5,
-      socialLink: "https://facebook.com",
     },
     {
       name: "Daniel Lee",
       avatar: "/Ellipse7.webp",
       review: "They understood our brand perfectly. The design is stunning and the user experience is flawless. Highly recommended!",
       rating: 5,
-      socialLink: "https://facebook.com",
     },
     {
       name: "Emily Tran",
       avatar: "/Ellipse8.webp",
       review: "We're incredibly impressed. Their team was professional, creative, and fast. They really care about delivering quality.",
       rating: 5,
-      socialLink: "https://facebook.com",
     },
     {
       name: "Samantha Milner",
       avatar: "/Ellipse9.webp",
       review: "The final result was better than we imagined. They exceeded every expectation with their design and attention to detail.",
       rating: 5,
-      socialLink: "https://facebook.com",
     },
   ];
 
@@ -249,13 +245,6 @@ const ClientTestimonials: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </button>
-              <div className="absolute top-4 right-4">
-                <a href={testimonials[currentIndex].socialLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-full w-10 h-10 bg-blue-500/20 hover:bg-blue-500/30 transition-colors">
-                  <svg className="w-5 h-5 text-blue-500 hover:text-blue-600 transition-colors" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M22.675 0H1.325C.593 0 0 .578 0 1.285v21.43C0 23.422.593 24 1.325 24H12.82v-9.265H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.115c.733 0 1.325-.578 1.325-1.285V1.285C24 .578 23.407 0 22.675 0z" />
-                  </svg>
-                </a>
-              </div>
               <div className="flex flex-col items-center mb-4">
                 <img
                   src={testimonials[currentIndex].avatar}

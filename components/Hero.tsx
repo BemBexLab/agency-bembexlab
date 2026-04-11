@@ -97,11 +97,11 @@ const HeroWithStats = () => {
       <div className="relative z-30 flex items-center justify-center min-h-screen px-4 text-white text-center pt-[200px] md:pt-[320px] pb-10">
         <div className="w-full max-w-5xl px-4">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mb-6 tracking-tight">
-            Bembex Lab<br></br>Full Service Digital Marketing Company in USA
+            Bembex Lab<br></br>Full Service Digital Marketing Company in Pakistan
           </h1>
 
           <p className="text-gray-300 max-w-2xl mx-auto mb-8 text-sm sm:text-base md:text-lg">
-            Bembex Lab is the #1 USA digital marketing agency for results generated strategy, web design, content development, SEO, paid ads, social and<br></br>ROI (Return On Investment) Marketing.
+            Bembex Lab is the #1 Pakistan digital marketing agency for results generated strategy, web design, content development, SEO, paid ads, social and<br></br>ROI (Return On Investment) Marketing.
           </p>
 
           {/* Buttons */}

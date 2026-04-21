@@ -100,20 +100,20 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
       </div>
 
       {/* Packages */}
-      <div className="hidden lg:block">
+      {/* <div className="hidden lg:block">
         <PackagesSection pricingCardData={service.pricingCardData} />
       </div>
       <div className="block lg:hidden">
         <PackagesSectionMobile pricingCardData={service.pricingCardData} />
-      </div>
+      </div> */}
 
       {/* Custom Plan */}
-      <div className="hidden lg:block">
+      {/* <div className="hidden lg:block">
         <CustomPlan customPlanData={service.customPlanData} />
       </div>
       <div className="block lg:hidden">
         <CustomPlanMobile customPlanData={service.customPlanData} />
-      </div>
+      </div> */}
 
       {/* Our Process */}
       <div className="hidden lg:block">

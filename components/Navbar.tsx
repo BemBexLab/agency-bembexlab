@@ -14,7 +14,6 @@ const navItems = [
   { label: "About us", href: "/about-us" },
   { label: "Services", href: "/services", isMega: true },
   { label: "Portfolio", href: "/portfolio" },
-  { label: "Packages", href: "/packages" },
   { label: "Blogs", href: "/blog" },
   // { label: "Hire Us On Upwork", href: "https://www.upwork.com/agencies/bembexlab/" },
 ];
@@ -110,6 +109,8 @@ export default function Navbar() {
                 {item.isMega ? (
                   <button
                     type="button"
+                    aria-haspopup="menu"
+                    aria-expanded={servicesDropdownOpen}
                     className={`text-sm whitespace-nowrap font-light ${pathname === item.href
                       ? "text-red-500 font-light underline underline-offset-[10px]"
                       : "text-white"

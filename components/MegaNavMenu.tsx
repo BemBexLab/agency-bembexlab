@@ -4,117 +4,17 @@ import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import { IoIosArrowDropright } from "react-icons/io";
 
-const serviceCategories = [
-    {
-        title: { label: "Web Design & Development", href: "/services/web-design-development/" },
-        // items: [
-        //     { label: "Custom Website Design", href: "/services/web-design-development/custom-web-design-and-development" },
-        //     { label: "E-commerce Website\nDevelopment", href: "/services/web-design-development/ecommerce-website-development" },
-        //     { label: "Magento Development", href: "/services/web-design-development/magento-development" },
-        //     { label: "Shopify Development", href: "/services/web-design-development/shopify-development" },
-        //     { label: "WooCommerce Development", href: "/services/web-design-development/woocommerce-development" },
-        //     { label: "Wordpress Development", href: "/services/web-design-development/wordpress-development" },
-        // ]
-    },
-    {
-        title: { label: "Graphic Design", href: "/services/graphic-design" },
-        // items: [
-        //     { label: "SEO Strategy & Planning", href: "/services/search-engine-optimization/seo-strategy-planning" },
-        //     { label: "Local SEO Service", href: "/services/search-engine-optimization/local-seo-service" },
-        //     // { label: "Local Listing", href: "/services/search-engine-optimization/local-listing" },
-        //     { label: "On-page & Off-page", href: "/services/search-engine-optimization/onpage-offpage-seo" },
-        //     { label: "Link Building", href: "/services/search-engine-optimization/link-building" },
-        //     { label: "Technical SEO Infrastructure", href: "/services/search-engine-optimization/technical-seo-infrastructure" },
-        //     { label: "Google Profile Optimization", href: "/services/search-engine-optimization/google-profile-optimization" },
-        // ]
-    },
-    {
-        title: { label: "Video Editing", href: "/services/video-editing" },
-        // items: [
-        //     { label: "Google Ads", href: "/services/performance-marketing/google-ads" },
-        //     { label: "Youtube Ads", href: "/services/performance-marketing/youtube-ads" },
-        //     { label: "Meta Ads", href: "/services/performance-marketing/meta-ads" },
-        //     { label: "Tiktok Shop Ads", href: "/services/performance-marketing/tiktok-shop-ads" },
-        //     { label: "Linkedin Ads", href: "/services/performance-marketing/linkedin-ads" },
-        //     { label: "Shopping Ads", href: "/services/performance-marketing/shopping-ads" },
-        //     { label: "Affiliate Marketing", href: "/services/performance-marketing/affiliate-marketing" },
-        //     { label: "Influencer Marketing", href: "/services/performance-marketing/influencer-marketing" },
-        //     { label: "App Marketing", href: "/services/performance-marketing/app-marketing" },
-        // ]
-    },
-    {
-        title: { label: "Mobile Development", href: "/services/mobile-development" },
-        // items: [
-        //     { label: "Logo Design &\nVisual Systems", href: "/services/logo-design-branding/logo-design-visual-systems" },
-        //     { label: "Brand Guide Book", href: "/services/logo-design-branding/brand-guide-book" },
-        //     { label: "Personal Branding", href: "/services/logo-design-branding/personal-branding" },
-        //     { label: "Video & Motion Graphics", href: "/services/logo-design-branding/video-motion-graphics" },
-        //     { label: "Brand Development", href: "/services/logo-design-branding/brand-development" },
-        // ]
-    },
-    {
-        title: { label: "Web Development", href: "/services/web-development" },
-        // items: [
-        //     { label: "Profile Optimization", href: "/services/socialmediamarketing-management/profile-optimization" },
-        //     { label: "High-Impact Content\nSystems", href: "/services/socialmediamarketing-management/high-impact-content-systems" },
-        //     { label: "Conversion-Focused\nProfile Architecture", href: "/services/socialmediamarketing-management/conversion-focused-profile-architecture" },
-        //     { label: "Trend Intelligence &\nReach Amplification", href: "/services/socialmediamarketing-management/trend-intelligence-reach-amplification" },
-        // ]
-    },
-    {
-        title: { label: "Digital Marketing", href: "/services/digital-design" },
-        // items: [
-        //     { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
-        //     { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },
-        //     { label: "Copywriting", href: "/services/content-marketing/copywriting" },
-        //     { label: "Conversion Rate\nOptimization (CRO)", href: "/services/content-marketing/conversion-rate-optimization-cro" },
-        // ]
-    },
-    {
-        title: { label: "Digital Marketing", href: "/services/digital-marketing" },
-        // items: [
-        //     { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
-        //     { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },
-        //     { label: "Copywriting", href: "/services/content-marketing/copywriting" },
-        //     { label: "Conversion Rate\nOptimization (CRO)", href: "/services/content-marketing/conversion-rate-optimization-cro" },
-        // ]
-    },
-    {
-        title: { label: "Content Writing", href: "/services/content-writing" },
-        // items: [
-        //     { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
-        //     { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },
-        //     { label: "Copywriting", href: "/services/content-marketing/copywriting" },
-        //     { label: "Conversion Rate\nOptimization (CRO)", href: "/services/content-marketing/conversion-rate-optimization-cro" },
-        // ]
-    },
-    {
-        title: { label: "Logo Design", href: "/services/logo-design" },
-        // items: [
-        //     { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
-        //     { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },
-        //     { label: "Copywriting", href: "/services/content-marketing/copywriting" },
-        //     { label: "Conversion Rate\nOptimization (CRO)", href: "/services/content-marketing/conversion-rate-optimization-cro" },
-        // ]
-    },
-    {
-        title: { label: "Branding", href: "/services/branding" },
-        // items: [
-        //     { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
-        //     { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },
-        //     { label: "Copywriting", href: "/services/content-marketing/copywriting" },
-        //     { label: "Conversion Rate\nOptimization (CRO)", href: "/services/content-marketing/conversion-rate-optimization-cro" },
-        // ]
-    },
-    {
-        title: { label: "SEO", href: "/services/seo" },
-        // items: [
-        //     { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
-        //     { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },
-        //     { label: "Copywriting", href: "/services/content-marketing/copywriting" },
-        //     { label: "Conversion Rate\nOptimization (CRO)", href: "/services/content-marketing/conversion-rate-optimization-cro" },
-        // ]
-    },
+const serviceLinks = [
+    { label: "Web Design & Development", href: "/services/web-design-development/" },
+    { label: "Graphic Design", href: "/services/graphic-design" },
+    { label: "Video Editing", href: "/services/video-editing" },
+    { label: "Web Development", href: "/services/web-development" },
+    { label: "Digital Marketing", href: "/services/digital-marketing" },
+    { label: "E-Commerce Development", href: "/services/ecommerce-development" },
+    { label: "Content Writing", href: "/services/content-writing" },
+    { label: "logo Design", href: "/services/logo-design" },
+    { label: "Branding", href: "/services/branding" },
+    { label: "SEO", href: "/services/seo" },
 ];
 
 interface MegaNavMenuProps {
@@ -125,97 +25,72 @@ interface MegaNavMenuProps {
 }
 
 export default function MegaNavMenu({ isOpen, onClose, onMouseEnter, onMouseLeave }: MegaNavMenuProps) {
-    if (!isOpen) return null;
     const menuRef = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
-        let touchStartY = 0;
+        if (!isOpen) return;
 
+        let touchStartY = 0;
         const node = menuRef.current;
 
         function handleWheel(e: WheelEvent) {
-            // Only close on wheel if the event is NOT from inside the menu
-            if (node && !node.contains(e.target as Node)) {
-                if (e.deltaY > 0) {
-                    onClose();
-                }
+            if (node && !node.contains(e.target as Node) && e.deltaY > 0) {
+                onClose();
             }
         }
 
         function handleTouchStart(e: TouchEvent) {
-            // Only track touch if it's NOT from inside the menu
             if (!node || !node.contains(e.target as Node)) {
                 touchStartY = e.touches?.[0]?.clientY ?? 0;
             }
         }
 
         function handleTouchMove(e: TouchEvent) {
-            // Only close on touch if it's NOT from inside the menu
             if (!node || !node.contains(e.target as Node)) {
                 const currentY = e.touches?.[0]?.clientY ?? 0;
-                // positive delta (start - current) means user swiped up (scrolling down)
+
                 if (touchStartY - currentY > 10) {
                     onClose();
                 }
             }
         }
 
-        // Add event listener on the menu to prevent wheel/touch propagation
+        function handlePointerDown(e: PointerEvent) {
+            if (!menuRef.current || !menuRef.current.contains(e.target as Node)) {
+                onClose();
+            }
+        }
+
+        function stopPropagation(e: Event) {
+            e.stopPropagation();
+        }
+
         if (node) {
-            const handleMenuWheel = (e: WheelEvent) => {
-                e.stopPropagation();
-            };
-            const handleMenuTouchMove = (e: TouchEvent) => {
-                e.stopPropagation();
-            };
-            const handleMenuPointerDown = (e: PointerEvent) => {
-                e.stopPropagation();
-            };
-
-            const handlePointerDown = (e: PointerEvent) => {
-                if (node && !node.contains(e.target as Node)) {
-                    onClose();
-                }
-            };
-
-            node.addEventListener("wheel", handleMenuWheel, { passive: true });
-            node.addEventListener("touchmove", handleMenuTouchMove, { passive: true });
-            node.addEventListener("pointerdown", handleMenuPointerDown);
-
-            window.addEventListener("wheel", handleWheel, { passive: true });
-            window.addEventListener("touchstart", handleTouchStart, { passive: true });
-            window.addEventListener("touchmove", handleTouchMove, { passive: true });
-            window.addEventListener("pointerdown", handlePointerDown, { passive: true });
-
-            return () => {
-                node.removeEventListener("wheel", handleMenuWheel);
-                node.removeEventListener("touchmove", handleMenuTouchMove);
-                node.removeEventListener("pointerdown", handleMenuPointerDown);
-                window.removeEventListener("wheel", handleWheel);
-                window.removeEventListener("touchstart", handleTouchStart);
-                window.removeEventListener("touchmove", handleTouchMove);
-                window.removeEventListener("pointerdown", handlePointerDown);
-            };
+            node.addEventListener("wheel", stopPropagation, { passive: true });
+            node.addEventListener("touchmove", stopPropagation, { passive: true });
+            node.addEventListener("pointerdown", stopPropagation);
         }
 
         window.addEventListener("wheel", handleWheel, { passive: true });
         window.addEventListener("touchstart", handleTouchStart, { passive: true });
         window.addEventListener("touchmove", handleTouchMove, { passive: true });
-        // Fallback pointerdown handler when menu ref isn't set yet
-        const handlePointerDown = (e: PointerEvent) => {
-            if (!menuRef.current || !menuRef.current.contains(e.target as Node)) {
-                onClose();
-            }
-        };
         window.addEventListener("pointerdown", handlePointerDown, { passive: true });
 
         return () => {
+            if (node) {
+                node.removeEventListener("wheel", stopPropagation);
+                node.removeEventListener("touchmove", stopPropagation);
+                node.removeEventListener("pointerdown", stopPropagation);
+            }
+
             window.removeEventListener("wheel", handleWheel);
             window.removeEventListener("touchstart", handleTouchStart);
             window.removeEventListener("touchmove", handleTouchMove);
             window.removeEventListener("pointerdown", handlePointerDown);
         };
-    }, [onClose]);
+    }, [isOpen, onClose]);
+
+    if (!isOpen) return null;
 
     return (
         <>
@@ -242,32 +117,36 @@ export default function MegaNavMenu({ isOpen, onClose, onMouseEnter, onMouseLeav
                 ref={menuRef}
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
-                className="fixed left-1/2 top-16 -translate-x-1/2 mt-2 w-[1050px] md:w-[1020px] max-h-[400px] overflow-y-auto mega-nav-scroll bg-[#0a0a0a]/95 backdrop-blur-md rounded-2xl border border-[#ff1e00]/30 p-8 flex flex-wrap gap-[50px] justify-left -start shadow-2xl z-[60]"
+                className="absolute left-1/2 top-full z-[60] mt-5 w-[310px] -translate-x-1/2 overflow-hidden rounded-lg border border-[#ff1e00]/30 bg-[#0a0a0a]/95 p-3 shadow-2xl backdrop-blur-md"
+                role="menu"
+                aria-label="Services"
             >
-                {serviceCategories.map((category) => (
-                    <div key={category.title.label} className="text-left">
-                        <Link
-                            href={category.title.href}
-                            onClick={onClose}
-                        >
-                            <h3 className="text-white font-semibold mb-2 text-[16px] hover:text-red-400 transition cursor-pointer whitespace-pre-line ">{category.title.label}</h3>
-                        </Link>
-                        <ul className="m-0 p-0 list-none">
-                            {category.items.map((service, index) => (
-                                <li key={`${category.title.label}-${index}`} className="m-0 p-0 flex items-center">
-                                    <IoIosArrowDropright className="text-white/70 flex-shrink-0 mr-1 w-4 h-4" />
-                                    <Link
-                                        href={service.href}
-                                        onClick={onClose}
-                                        className="text-white hover:text-red-400 transition text-[15px] font-light my-1.5 whitespace-pre-line leading-none"
-                                    >
-                                        {service.label}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
+                <ul className="mega-nav-scroll m-0 max-h-[70vh] list-none overflow-y-auto p-0 pr-1">
+                    {serviceLinks.map((service) => (
+                        <li key={service.href} className="m-0 p-0">
+                            <Link
+                                href={service.href}
+                                onClick={onClose}
+                                className="flex items-center gap-2 rounded-md px-3 py-2.5 text-[15px] font-light leading-tight text-white transition hover:bg-[#ff1e00]/10 hover:text-red-400"
+                                role="menuitem"
+                            >
+                                <IoIosArrowDropright className="h-4 w-4 flex-shrink-0 text-white/70" />
+                                <span>{service.label}</span>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+
+                {/* <div className="mt-2 border-t border-white/10 pt-2">
+                    <Link
+                        href="/services"
+                        onClick={onClose}
+                        className="block rounded-md px-3 py-2 text-center text-[14px] font-light text-white/80 transition hover:bg-[#ff1e00]/10 hover:text-red-400"
+                        role="menuitem"
+                    >
+                        All Services
+                    </Link>
+                </div> */}
             </div>
         </>
     );

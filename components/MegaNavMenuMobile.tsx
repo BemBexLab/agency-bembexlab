@@ -42,16 +42,6 @@ const serviceCategories = [
         ]
     },
     {
-        title: { label: "Mobile Development", href: "/services/mobile-development" },
-        items: [
-            // { label: "Logo Design &\nVisual Systems", href: "/services/logo-design-branding/logo-design-visual-systems" },
-            // { label: "Brand Guide Book", href: "/services/logo-design-branding/brand-guide-book" },
-            // { label: "Personal Branding", href: "/services/logo-design-branding/personal-branding" },
-            // { label: "Video & Motion Graphics", href: "/services/logo-design-branding/video-motion-graphics" },
-            // { label: "Brand Development", href: "/services/logo-design-branding/brand-development" },
-        ]
-    },
-    {
         title: { label: "Web Development", href: "/services/web-development" },
         items: [
             // { label: "Profile Optimization", href: "/services/socialmediamarketing-management/profile-optimization" },
@@ -61,7 +51,7 @@ const serviceCategories = [
         ]
     },
     {
-        title: { label: "Digital Marketing", href: "/services/digital-design" },
+        title: { label: "Digital Marketing", href: "/services/digital-marketing" },
         items: [
             // { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
             // { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },
@@ -70,7 +60,7 @@ const serviceCategories = [
         ]
     },
     {
-        title: { label: "Digital Marketing", href: "/services/digital-marketing" },
+        title: { label: "E-Commerce Development", href: "/services/ecommerce-development" },
         items: [
             // { label: "Email Marketing", href: "/services/content-marketing/email-marketing" },
             // { label: "SEO Content Writing", href: "/services/content-marketing/seo-content-writing" },

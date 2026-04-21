@@ -21,20 +21,36 @@ import OurProcessMobile from "../components/OurProcessMobile"
 import WhyChooseUsMobile from "../components/WhyChooseUsMobile"
 import EasyExperienceMobile from "../components/EasyExperienceMobile"
 import Footer2 from '@/components/Footer2';
+import DeferredSection from '@/components/DeferredSection';
+import { PortfolioSkeleton, SectionSkeleton } from '@/components/Skeletons';
 
 const PortfolioWall = dynamic(() => import("@/components/PortfolioWall"), {
   ssr: false,
+  loading: () => <PortfolioSkeleton />,
 });
 const TestimonialsCarousel = dynamic(
   () => import("@/components/TestimonialsCarousel copy"),
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => <SectionSkeleton minHeight={900} />,
+  }
 );
 const BlogWall = dynamic(() => import("@/components/BlogWall"), {
   ssr: false,
+  loading: () => <SectionSkeleton minHeight={800} />,
 });
 const ForumMap = dynamic(() => import("@/components/ForumMap"), {
   ssr: false,
+  loading: () => <SectionSkeleton minHeight={900} />,
 });
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return services.map((service) => ({
+    slug: service.slug,
+  }));
+}
 
 export default function ServicePage({ params }: { params: { slug: string } }) {
   const service = services.find((s) => s.slug === params.slug)
@@ -140,14 +156,22 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
       </div>
 
       {/* Portfolio */}
-      <div className="block md:mt-32">
+      <DeferredSection minHeight={900} className="block md:mt-32" fallback={<PortfolioSkeleton />}>
         <PortfolioWall />
-      </div>
+      </DeferredSection>
       
-      <TestimonialsCarousel />
-      <FAQs items={service.faqs} />
-      <BlogWall />
-      <ForumMap />
+      <DeferredSection minHeight={900}>
+        <TestimonialsCarousel />
+      </DeferredSection>
+      <DeferredSection minHeight={600}>
+        <FAQs items={service.faqs} />
+      </DeferredSection>
+      <DeferredSection minHeight={800}>
+        <BlogWall />
+      </DeferredSection>
+      <DeferredSection minHeight={900}>
+        <ForumMap />
+      </DeferredSection>
       <Footer2 />
     </main>
   )

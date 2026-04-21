@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
+import { PortfolioSkeleton } from "./Skeletons";
 
 // Category configuration
 const MODAL_CATEGORIES = ["LOGO DESIGN", "BRANDING", "ILLUSTRATION", "PRINT"];
@@ -142,7 +143,7 @@ const ProjectCardGrid = () => {
 
       {/* Projects Grid or Loading Message */}
       {posts.length === 0 ? (
-        <div className="text-white text-center py-10">Loading Projects...</div>
+        <PortfolioSkeleton />
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-2">
           {filteredPosts.map((post) => {

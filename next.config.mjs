@@ -1,7 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   images: {
-    domains: ["localhost", "olive-peafowl-546702.hostingersite.com"],
+    formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 31536000,
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "localhost",
+      },
+      {
+        protocol: "https",
+        hostname: "olive-peafowl-546702.hostingersite.com",
+      },
+    ],
   },
   eslint: {
     ignoreDuringBuilds: true,

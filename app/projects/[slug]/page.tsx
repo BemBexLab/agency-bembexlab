@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import LivePreview from "@/components/LivePreview"; // <--- ADD THIS
 import { fetchWithTimeout, isAbortLikeError } from "@/lib/wordpress";
 
@@ -76,10 +77,14 @@ export default async function ProjectPage({
 
       {/* Project Image */}
       <div className="w-full max-w-4xl rounded-2xl overflow-hidden shadow-xl mb-12">
-        <img
+        <Image
           src={imageUrl}
           alt={project.title.rendered}
-          className="w-full h-auto object-cover"
+          width={1200}
+          height={800}
+          sizes="(max-width: 1024px) 100vw, 896px"
+          priority
+          className="h-auto w-full object-cover"
         />
       </div>
 

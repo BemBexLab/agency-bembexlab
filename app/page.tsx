@@ -4,27 +4,40 @@ import AboutSection from "@/components/AboutSection";
 import ServiceSection from "@/components/ServiceSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
 import DeferredSection from "@/components/DeferredSection";
+import { PortfolioSkeleton, SectionSkeleton } from "@/components/Skeletons";
 
-const FAQs = dynamic(() => import("@/components/FAQs_New"));
-const TheyTrustUs = dynamic(() => import("./trust-us/page"));
-const OurProcess = dynamic(() => import("@/components/OurProcess"));
-const Footer2 = dynamic(() => import("@/components/Footer2"));
+const FAQs = dynamic(() => import("@/components/FAQs_New"), {
+  loading: () => <SectionSkeleton minHeight={600} />,
+});
+const OurProcess = dynamic(() => import("@/components/OurProcess"), {
+  loading: () => <SectionSkeleton minHeight={700} />,
+});
+const Footer2 = dynamic(() => import("@/components/Footer2"), {
+  loading: () => <SectionSkeleton minHeight={420} />,
+});
 
 const BehindTheScenes = dynamic(() => import("@/components/VideoSection copy"), {
   ssr: false,
+  loading: () => <SectionSkeleton minHeight={900} />,
 });
 const PortfolioWall = dynamic(() => import("@/components/PortfolioWall"), {
   ssr: false,
+  loading: () => <PortfolioSkeleton />,
 });
 const TestimonialsCarousel = dynamic(
   () => import("@/components/TestimonialsCarousel copy"),
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => <SectionSkeleton minHeight={900} />,
+  }
 );
 const BlogWall = dynamic(() => import("@/components/BlogWall"), {
   ssr: false,
+  loading: () => <SectionSkeleton minHeight={800} />,
 });
 const ForumMap = dynamic(() => import("@/components/ForumMap"), {
   ssr: false,
+  loading: () => <SectionSkeleton minHeight={900} />,
 });
 
 const Home = () => {
